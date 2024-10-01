@@ -1,0 +1,28 @@
+header {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: var(--main_width);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+header ul li {
+    cursor: pointer;
+}
+
+header ul li a{
+    color: #1a1a1a;
+    transition: all 0.3s ease 0s;
+}
+
+header ul li a:hover {
+    color: var(--main_color);
+}
